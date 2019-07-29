@@ -1,3 +1,3 @@
 # LoanPaymentPrediction
 
-Loan Payment and Default prediction models. Data drawn from LendingClub.
+Loan Payment and Default prediction models. Data drawn from LendingClub. The project uses random forest regression to predict the amount that will be paid back on a loan using a subset of publicly available lending club data. This model could then be used to evaluate the features which are of greatest importance for load repayment for companies engaging in micro-lending due to the fact that random forest regression is helpful for identifying feature importances to increase interpretability for this use case.The first plot is a correlation matrix of the features found in the lending club dataset, providing a first look at relationships between the features and informing feature selection choices. The second plot is scatter plot of the random forest regressions predictions plotted against the actual values of the test data.
